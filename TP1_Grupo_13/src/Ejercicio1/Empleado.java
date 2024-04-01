@@ -1,25 +1,35 @@
 package Ejercicio1;
 
 public class Empleado {
-	private int id;
+
+	private static int cont = 1000;
+	private final int id;
 	private String nombre;
 	private int edad;
 	
+	
+
 	//constructor
 	
 	public Empleado() {
-		id=1000;
+		id = cont;
 		nombre= "sin nombre";
-		edad=0;
+		edad=99;
+		cont ++;
+	}
+	
+	public Empleado(String Nombre, int Edad) {
+		id = cont;
+		nombre = Nombre;
+		edad = Edad;
+		cont ++;
 	}
 	
 	//getters y setters
 	public int getId() {
 		return id;
 	}
-	public void setId(int id) {
-		this.id = id;
-	}
+	
 	public String getNombre() {
 		return nombre;
 	}
