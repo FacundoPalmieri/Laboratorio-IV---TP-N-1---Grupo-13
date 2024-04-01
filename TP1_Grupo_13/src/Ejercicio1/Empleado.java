@@ -44,6 +44,7 @@ public class Empleado {
 	}
 	
 	public static int devuelveProximoID() {
+		System.out.println("El próximo ID será el " + cont);
 		return cont;
 	}
 
