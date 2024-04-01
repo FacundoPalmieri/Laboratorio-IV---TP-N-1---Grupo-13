@@ -42,6 +42,10 @@ public class Empleado {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
+	
+	public static int devuelveProximoID() {
+		return cont;
+	}
 }
 
 
