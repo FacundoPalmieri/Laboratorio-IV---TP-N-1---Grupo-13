@@ -46,6 +46,13 @@ public class Empleado {
 	public static int devuelveProximoID() {
 		return cont;
 	}
+
+	@Override
+	public String toString() {
+		return "Empleado ID=" + id + ", NOMBRE=" + nombre + ", EDAD=" + edad;
+	}
+	
+	
 }
 
 
