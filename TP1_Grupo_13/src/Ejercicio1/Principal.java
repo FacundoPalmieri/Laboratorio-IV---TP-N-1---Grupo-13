@@ -9,27 +9,17 @@ public class Principal {
 
 		
 		Empleado emp = new Empleado();
-		
-		emp.setNombre("Carlos");
-		emp.setEdad(25);
-		
-		
+			
 		Empleado emp1 = new Empleado("Ernesto",45);	
 		
 		Empleado emp2 = new Empleado();
 		
-		emp2.setNombre("Lucas");
-		emp2.setEdad(20);
-		
-		Empleado emp3 = new Empleado();
-		
-		emp3.setNombre("Juan");
-		emp3.setEdad(35);
-		
-		Empleado emp4 = new Empleado("Pedro",29);
+		Empleado emp3 = new Empleado("Juan",35);
+	
+		Empleado emp4 = new Empleado();
 		
 		Empleado emp5 = new Empleado();
-		Empleado emp6 = new Empleado();
+	
 		
 		System.out.println(emp.toString());
 		System.out.println(emp1.toString());
@@ -37,7 +27,9 @@ public class Principal {
 		System.out.println(emp3.toString());
 		System.out.println(emp4.toString());
 		System.out.println(emp5.toString());
-		System.out.println(emp6.toString());
+	
+		
+		Empleado.devuelveProximoID();
 
 	}
 
