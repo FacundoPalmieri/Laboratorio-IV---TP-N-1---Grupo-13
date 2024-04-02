@@ -13,6 +13,7 @@ public class Principal {
 		emp.setNombre("Carlos");
 		emp.setEdad(25);
 		
+		
 		Empleado emp1 = new Empleado("Ernesto",45);	
 		
 		Empleado emp2 = new Empleado();
@@ -27,11 +28,16 @@ public class Principal {
 		
 		Empleado emp4 = new Empleado("Pedro",29);
 		
+		Empleado emp5 = new Empleado();
+		Empleado emp6 = new Empleado();
+		
 		System.out.println(emp.toString());
 		System.out.println(emp1.toString());
 		System.out.println(emp2.toString());
 		System.out.println(emp3.toString());
 		System.out.println(emp4.toString());
+		System.out.println(emp5.toString());
+		System.out.println(emp6.toString());
 
 	}
 
